@@ -1,21 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-client/node_modules/
-server/node_modules/
+node_modules
+apps/client/node_modules/
+apps/server/node_modules/
 /.pnp
 .pnp.js
 
 # testing
 /coverage
-client/package-lock.json
-server/package-lock.json
-client/yarn.lock
-server/yarn.lock
+apps/client/package-lock.json
+apps/server/package-lock.json
+apps/client/yarn.lock
+apps/server/yarn.lock
 
-server/uploads/
+apps/server/uploads/
 # next.js
-client/.next/
+apps/client/.next/
 /out/
 
 # production
@@ -36,3 +37,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# firebase
+FirebaseConfig.js

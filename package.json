@@ -1,0 +1,14 @@
+{
+  "name": "nextjs-whatsapp-clone",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "dev:client": "pnpm --filter {apps/client} run dev",
+    "dev:server": "pnpm --filter {apps/server} run dev",
+    "dev:prisma": "pnpm --filter {apps/server} run prismaDev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
